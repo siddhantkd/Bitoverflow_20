@@ -16,19 +16,28 @@
   margin-left: 25%;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones like Motog4) */
+@media only screen and (min-width: 300px) {
   .main-head {
     font-size: 32px ;
     font-weight: lighter;
   }
   .sub-head {
-    font-size: 13px;
-    margin-left: 15%;
-    margin-right: 15%;
+    font-size: 9px;
+    margin-left: 13%;
   }
 }
-
+/* Extra small devices (phones like PixelXL) */
+@media only screen and (min-width: 400px) {
+  .main-head {
+    font-size: 32px ;
+    font-weight: lighter;
+  }
+  .sub-head {
+    font-size: 9px;
+    margin-left: 18%;
+  }
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
